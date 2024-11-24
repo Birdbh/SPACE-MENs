@@ -1,0 +1,68 @@
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.team-con{
+    margin: auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-bottom: 3em; */
+    padding: 2em 0em 0em 0em;
+}
+.member{
+    width: 30%;
+    
+    margin: 0em 0em 2em 0em;
+    padding: 0em;
+    border-radius: 1em;
+    transition: transform .2s; /* Animation */
+}
+.member:hover {
+    transform: scale(1.1);
+}
+.member-info{
+    background-color: white;
+    margin: 0;
+    padding: 1em;
+    border-radius: 0 0 1em 1em;
+    line-height: 1.3;
+}
+.img{
+    display: block;
+    border-radius: 1em 1em 0em 0em;
+    height: 20em;
+}
+.sw-eng{
+    background-color: rgba(255, 164, 164, 0.726);
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    padding: 0.1em 0.4em 0.1em 0.4em;
+}
+.hd-eng{
+    background-color: rgba(176, 201, 255, 0.726);
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    padding: 0.1em 0.4em 0.1em 0.4em;
+}
+.or-lead{
+    background-color: rgb(200, 253, 184);
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    padding: 0.1em 0.4em 0.1em 0.4em;
+}
+.bio{
+    margin-top: 0.6em;
+}

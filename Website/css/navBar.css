@@ -1,0 +1,36 @@
+/* Nav bar */
+.logo{
+    overflow: hidden;
+    position: absolute;
+    left: 1.3em;
+    top: 0.8em;
+    width: 5.5em;
+}
+.nav-list{
+    display: inline-block;
+    width: 12em;
+}
+.topnav{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 2.8em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.centerNav{
+    overflow: hidden;
+}
+.rightNav{
+    float: right;
+    display: inline-block;
+}
+.page{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+}
+.page:hover{
+    color: aqua; 
+    /* ask about what colour to use on hover */
+}

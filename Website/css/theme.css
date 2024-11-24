@@ -1,0 +1,43 @@
+body{
+    background-image: url(../img/space-background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin:0;
+    display:flex; 
+    flex-direction:column; 
+}
+.main-title{
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+.page-title{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    margin: 1em 0em;
+}
+.title{
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+}
+.title-desc{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.fw-400{
+    font-family: 'Arvo';
+    font-weight: 400;
+}
+.fs-5-5{
+    font-size: 1.1em;
+}

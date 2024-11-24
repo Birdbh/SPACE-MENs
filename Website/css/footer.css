@@ -1,0 +1,148 @@
+footer{
+    background-color: #24262ef3; /*opacity check*/
+    color: white;
+    line-height: 1.8rem;
+    margin-top: 3em;
+}
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container {
+    flex: 1;
+}
+.ft-main {
+    padding: 0.3rem 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* column title styling */
+.ft-title {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    padding-bottom: 0rem;
+}
+.ft-main-item {
+    padding: 1.2rem;
+    min-width: 12.5rem /*200px*/;
+}
+.ft-list{
+    color: white;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.ft-list li{
+    color: white;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.email:link, .phone:link{
+    color: white;
+}
+.email:visited, .phone:visited{
+    color: rgba(184, 1, 184, 0.89);
+}
+.email:hover, .phone:hover{
+    color: rgb(173, 173, 255);
+}
+/* Screen wrapping multi device */
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+/* Social list column 1 */
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.1em #777 solid; 
+    padding-top: 1.25rem;
+}
+.logo-title{
+    font-family: 'Arvo', serif;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 0.625rem;
+}
+/* social icons */
+.fa {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 0.8em;
+    width: 2.63em;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background-image: url(../img/social-icons/igbg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+/* Style the newsletter form */
+.sub-text{
+    font-family: 'Courier New', Courier, monospace;
+}
+form {
+    margin-top: 0.3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+/* legal footer */
+.ft-legal {
+    padding: 0.4rem 1.875rem 0rem ;
+    background-color: #333;
+}
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ft-legal-list li {
+    margin: 0rem 0.6rem;
+    white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;       /* same as flex-grow: 1; */
+}
+.sub-text{
+    line-height: 1;
+}
+

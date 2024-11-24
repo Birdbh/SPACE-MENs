@@ -1,0 +1,15 @@
+.main-container{
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.722);
+    /* background-color: rgba(0, 0, 0, 0.686); */
+    width: 80%;
+    border-radius: 1.2em;
+    margin-bottom: 3em;
+}
+.content{
+    padding: 2em;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    /* color: white; */
+    color: rgb(0, 0, 0);
+}
