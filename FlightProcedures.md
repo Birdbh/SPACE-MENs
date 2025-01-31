@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Start Flight Procedures]
 
@@ -71,3 +72,4 @@ graph TD
     style D fill:#9C27B0,stroke:#6A1B9A
     style E fill:#009688,stroke:#00796B
     style F fill:#4CAF50,stroke:#388E3C
+```
