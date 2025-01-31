@@ -36,8 +36,8 @@ graph TD
     style C3 fill:#2196F3,stroke:#1976D2 %% Level Flight
     style C4 fill:#9C27B0,stroke:#6A1B9A %% Loop
     style D fill:#607D8B,stroke:#455A64 %% Post-Flight
-
-
+```
+```mermaid
 graph TD
     A[Start Pre-Flight Procedures] --> B[Pack Secondary Bag]
     B --> B1[Prepare 27 Tampons: 3 For 6 Parabolas + 50% Margin]
