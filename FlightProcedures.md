@@ -88,8 +88,8 @@ graph TD
 
     A3 --> C[Biohazard Protocol]
     C --> C1[Weigh Used Tampons in Sealed Containers]
-    C1 --> C2[Neutralize Synthetic Blood with 10% Bleach Solution]
-    C2 --> C3[Dispose Tampons/Splatter Sheets in Biohazard Bin]
+    C1 --> C2[Neutralize Synthetic Blood with Solution]
+    C2 --> C3[Dispose Tampons in  Bin]
     C3 --> C4[Decontaminate Synthetic Vaginas with Ethanol Spray]
 
     B4 --> D[Analytics Phase]
