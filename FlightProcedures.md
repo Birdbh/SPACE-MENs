@@ -86,11 +86,11 @@ graph TD
     B1 --> B3[Photograph Splatter Sheets - Top/Bottom Under UV Light]
     B3 --> B4[Catalog Sheets: Parabola Number/Flight Phase]
 
-    A3 --> C[Biohazard Protocol]
+    A3 --> C[Cleanup Protocol]
     C --> C1[Weigh Used Tampons in Sealed Containers]
-    C1 --> C2[Neutralize Synthetic Blood with Solution]
+    C1 --> C2[Cleanup Synthetic Blood]
     C2 --> C3[Dispose Tampons in  Bin]
-    C3 --> C4[Decontaminate Synthetic Vaginas with Ethanol Spray]
+    C3 --> C4[Clean Synthetic Vaginas with Ethanol Spray]
 
     B4 --> D[Analytics Phase]
     D --> D1[Run Droplet Dispersion Algorithms on Video Data]
@@ -108,4 +108,6 @@ graph TD
     style C fill:#4CAF50,stroke:#388E3C
     style D fill:#9C27B0,stroke:#6A1B9A
     style E fill:#607D8B,stroke:#455A64
+
+    linkStyle default stroke:#FFFFFF,stroke-width:2px
 ```
